@@ -5,5 +5,3 @@ def somar_numeros(lista):
     return total
 numeros = [10, 5, 8, 3]
 print(somar_numeros(numeros))
-
-#alouuu

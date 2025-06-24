@@ -5,6 +5,6 @@ def somar_pares():
             total +=i   
             return total
 
-numero = [1, 2, 3, 4, 5, 6,]
+numero = [1, 2, 3, 4, 5, 6]
 
 print(somar_pares("numeros"))

@@ -1,10 +1,12 @@
-def calcular_media(lista):
-    total = 0
-    for i in lista:   
-            total +=i
-    media = total / len(lista)
+def cadastrar_filmes(nome_filme, descricao, classificacao, categoria1, categoria2, categoria3):
+    dados_filme = []
+    filme = {
+        "nome_filme": nome_filme,
+        "descricao": descricao,
+        "classificacao": classificacao,
+        "categorias": [categoria1, categoria2, categoria3]
+    }
+    dados_filme.append(filme)
+    return dados_filme
 
-    return media
-
-numeros = [7,9,8,7]
-print(calcular_media(numeros))
+print(cadastrar_filmes("Interestelar", "Descrição", "10", "Ficção cientifica", "Ação", "Aventura"))
